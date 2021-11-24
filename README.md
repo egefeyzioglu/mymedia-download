@@ -16,6 +16,8 @@ This tool is written in Python and you need to have Python installed for it to w
 You can get Python from [its official website](https://www.python.org/downloads/). Download the installer, then finish the install before continuing.
 
 #### b. The Selenium Python package
+This is what I use to interact with Google Chrome. It comes with its own Chrome installation, so no need to install it seperately, and it shouldn't change anything on your regular Chrome.
+
 Open your favorite terminal emulator (see the FAQ for how to do this) and type the following commands
 
 ```py -m ensurepip --upgrade```
