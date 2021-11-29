@@ -50,7 +50,7 @@ Type `py .\mymedia-downloader.py (path to the list) (path to the folder to put a
 Replace the bits in the brackets with the paths. You can drag-and-drop the file and the folder to the terminal if you don't know how to find the path to a file, you will just need to add a `\` after the second one. (This not a regular slash, it is a backslah. You type it by pressing the key to the left of the shift key on most English keyboards.)
 
 #### On Mac or Linux
-You first need to allow your computer to run this file. To do that, type ´chmod u+x mymedia-downloader.py´Then, type `./mymedia-downloader.py (path to the list) (path to the folder to put all the videos with the trailing /)`
+You first need to allow your computer to run this file. To do that, type ´chmod u+x mymedia-downloader.py´ Then, type `./mymedia-downloader.py (path to the list) (path to the folder to put all the videos with the trailing /)`
 
 Replace the bits in the brackets with the paths. You can _probably_ drag-and-drop the file and the folder to the terminal if you don't know how to find the path to a file, you might need to add a `/` after the second one.
 
