@@ -15,14 +15,18 @@ This tool is written in Python and you need to have Python installed for it to w
 
 You can get Python from [its official website](https://www.python.org/downloads/). Download the installer, then finish the install before continuing.
 
-#### b. The Selenium Python package
-This is what I use to interact with Google Chrome. It comes with its own Chrome installation, so no need to install it seperately, and it shouldn't change anything on your regular Chrome.
+#### b. Various Python packages
+There are thee you neet to download:
+
+- Selenium: This is what I use to interact with Google Chrome. It comes with its own Chrome installation, so no need to install it seperately, and it shouldn't change anything on your regular Chrome.
+- webdriver-manager: Has some utility functions that make my life easier
+- ffmpeg-python: This is used for Python to talk to a tool we'll download in just a second
 
 Open your favorite terminal emulator (see the FAQ for how to do this) and type the following commands
 
 ```py -m ensurepip --upgrade```
 
-```pip3 install selenium ```
+```pip3 install selenium ffmpeg-python webdriver-manager ```
 
 #### c. ffmpeg
 MyMedia stores videos in a way that makes them difficult to download and use. ffmpeg is a tool that is used (among other things) to convert video formats. This tool uses it to convert that format to mp4 files.
