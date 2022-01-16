@@ -64,7 +64,7 @@ The reason I'm saying probably is because Linux comes in a variety of flavours, 
 Wait for the Chrome window to pop up, then click Log In and authenticate. I do not ever see your UTORid and password, all the communication happens directly between you and the university. Please see the source code if you don't believe me.
 
 ### 7. Wait until the screen says "Done."
-After that, you should see all the videos you wanted to download in the folder you provided. Unfortunately I have not implemented naming these files correctly, so they are just numbered from 0 onwards. I might come back at this and fix that at some point.
+After that, you should see all the videos you wanted to download in the folder you provided.
 
 
 ## Frequently Asked Querstions

@@ -70,11 +70,18 @@ for cookie in cookies:
 
 # List to hold all the video  URLs
 playlists = []
+# List to hold all the video titles
+titles = []
 
-# Get video URLs
+# Get video URLs and titles
 for url in video_urls:
     driver.get(url)
-    time.sleep(1) # Wait until page loads. Hopefully will be replaced with a non-janky method later
+    time.sleep(3) # Wait until page loads. Hopefully will be replaced with a non-janky method later
+
+    #Get video title
+    titles.append(driver.find_element_by_css_selector("h2.chakra-heading").text)
+
+    #Get video URL
     log = driver.get_log('performance')
     for item_ in log:
         item = json.loads(item_["message"])["message"]
@@ -86,7 +93,7 @@ for url in video_urls:
 print("Done.\nStarting download...")
 for i, playlist in enumerate(playlists):
     stream = ffmpeg.input(playlist)
-    stream = ffmpeg.output(stream, outpath + str(i) + ".mp4", c="copy")
+    stream = ffmpeg.output(stream, outpath + titles[i] + ".mp4", c="copy")
     ffmpeg.run(stream)
     print(".",end="")
 print("\n"*100 + "Done.")
