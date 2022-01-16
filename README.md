@@ -49,14 +49,14 @@ Please see the FAQs if you don't know how to do this
 
 ### 5. Run the tool
 #### On Windows (Using cmd)
-Type `py .\mymedia-downloader.py (path to the list) (path to the folder to put all the videos with the trailing \)`
+Type `py .\mymedia-downloader.py (path to the list) (path to the folder to put all the videos)`
 
-Replace the bits in the brackets with the paths. You can drag-and-drop the file and the folder to the terminal if you don't know how to find the path to a file, you will just need to add a `\` after the second one. (This not a regular slash, it is a backslah. You type it by pressing the key to the left of the shift key on most English keyboards.)
+Replace the bits in the brackets with the paths. You can drag-and-drop the file and the folder to the terminal if you don't know how to find the path to a file.
 
 #### On Mac or Linux
-You first need to allow your computer to run this file. To do that, type `chmod u+x mymedia-downloader.py` Then, type `./mymedia-downloader.py (path to the list) (path to the folder to put all the videos with the trailing /)`
+You first need to allow your computer to run this file. To do that, type `chmod u+x mymedia-downloader.py` Then, type `./mymedia-downloader.py (path to the list) (path to the folder to put all the videos)`
 
-Replace the bits in the brackets with the paths. You can _probably_ drag-and-drop the file and the folder to the terminal if you don't know how to find the path to a file, you might need to add a `/` after the second one.
+Replace the bits in the brackets with the paths. You can _probably_ drag-and-drop the file and the folder to the terminal if you don't know how to find the path to a file.
 
 The reason I'm saying probably is because Linux comes in a variety of flavours, and yours might not support this. I assume if you're using Linux, you know what a path is and how to find one. Otherwise google "find absolute path in (name of your Linux distro)".
 

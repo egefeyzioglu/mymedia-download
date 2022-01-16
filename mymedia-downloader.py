@@ -27,8 +27,11 @@ if yn != "Y" and yn != "y":
 fp = open(sys.argv[1], "r")
 
 # Set globals
+# Video URLs
 video_urls = fp.readlines()
-outpath = sys.argv[2]
+# Output path
+slash = '\\' if sys.platform == "win32" else '/'
+outpath = sys.argv[2] if sys.argv[2][-1] == slash else (sys.argv[2] + slash) # Add trailing back/slash if it isn't there
 
 # We're done with this file
 fp.close()
