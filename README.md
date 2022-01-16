@@ -31,7 +31,7 @@ Open your favorite terminal emulator (see the FAQ for how to do this) and type t
 #### c. ffmpeg
 MyMedia stores videos in a way that makes them difficult to download and use. ffmpeg is a tool that is used (among other things) to convert video formats. This tool uses it to convert that format to mp4 files.
 
-You can download and install ffmpeg from [its official website](https://www.ffmpeg.org/). Please make sure it is in your "path". See the FAQ if you don't know what that means, or if you don't know how to put it in your path.
+You can download and install ffmpeg from [its official website](https://www.ffmpeg.org/). **Please make sure it is in your "path".** See the FAQ if you don't know what that means, or if you don't know how to put it in your path. The program will fail with a rather complicated error message if ffmpeg is not correctly installed and on your path.
 
 ### 1. Download the tool
 Secondary (right) click [here](https://raw.githubusercontent.com/egefeyzioglu/mymedia-download/main/mymedia-downloader.py) then select "Save Link As" to download it. You can put it wherever you want, but if you put it in your Downloads folder, you can just go off the examples in this guide.
