@@ -90,6 +90,6 @@ If you run Linux, you probably know how to do this. If you don't, google "(your 
 ### How do I put something on my path?
 Your path is where your computer looks for things to run.
 #### On Mac/Linux
-Run `export (path to the thing you want to add to your path)` in your terminal each time
+Run `export PATH="(path to the thing you want to add to your path):$PATH"` in your terminal each time
 #### On Windows
 [Read this](https://docs.microsoft.com/en-us/previous-versions/office/developer/sharepoint-2010/ee537574(v=office.14)) and do it once. You can remove what you added when you're done if you'd like.
