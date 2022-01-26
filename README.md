@@ -31,7 +31,7 @@ Open your favorite terminal emulator (see the FAQ for how to do this) and type t
 #### c. ffmpeg
 MyMedia stores videos in a way that makes them difficult to download and use. ffmpeg is a tool that is used (among other things) to convert video formats. This tool uses it to convert that format to mp4 files.
 
-You can download and install ffmpeg from [its official website](https://www.ffmpeg.org/). **Please make sure it is in your "path".** See the FAQ if you don't know what that means, or if you don't know how to put it in your path. The program will fail with a rather complicated error message if ffmpeg is not correctly installed and on your path.
+You can download and install ffmpeg from [its official website](https://www.ffmpeg.org/). **Please make sure it is in your "PATH".** See the FAQ if you don't know what that means, or if you don't know how to put it in your path. The program will fail with a rather complicated error message if ffmpeg is not correctly installed and on your PATH.
 
 ### 1. Download the tool
 Secondary (right) click [here](https://raw.githubusercontent.com/egefeyzioglu/mymedia-download/main/mymedia-downloader.py) then select "Save Link As" to download it. You can put it wherever you want, but if you put it in your Downloads folder, you can just go off the examples in this guide.
@@ -87,9 +87,9 @@ Open the start menu, then type `cmd.exe` and press enter. This will open "Comman
 #### On Linux
 If you run Linux, you probably know how to do this. If you don't, google "(your distribution name) how to use terminal".
 
-### How do I put something on my path?
-Your path is where your computer looks for things to run.
+### How do I put something on my PATH?
+Your PATH is where your computer looks for things to run. The exact same word is used to mean the location of something on your computer, so I've used the uppercase word PATH to distinguish the two.
 #### On Mac/Linux
-Run `export PATH="(path to the thing you want to add to your path):$PATH"` in your terminal each time
+Run `export PATH="(path to the thing you want to add to your PATH):$PATH"` in your terminal each time.
 #### On Windows
 [Read this](https://docs.microsoft.com/en-us/previous-versions/office/developer/sharepoint-2010/ee537574(v=office.14)) and do it once. You can remove what you added when you're done if you'd like.
