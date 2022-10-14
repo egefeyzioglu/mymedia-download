@@ -1,6 +1,7 @@
 #! /usr/bin/env python3
 
 from selenium import webdriver
+from selenium.webdriver.common.by import By
 from selenium.webdriver.common import desired_capabilities
 from selenium.webdriver.common.keys import Keys
 from webdriver_manager.chrome import ChromeDriverManager
@@ -79,7 +80,7 @@ for url in video_urls:
     time.sleep(3) # Wait until page loads. Hopefully will be replaced with a non-janky method later
 
     #Get video title
-    titles.append(driver.find_element_by_css_selector("h2.chakra-heading").text)
+    titles.append(driver.find_element(By.CSS_SELECTOR, "h2.chakra-heading").text)
 
     #Get video URL
     log = driver.get_log('performance')
