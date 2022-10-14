@@ -18,7 +18,7 @@ if len(sys.argv) != 3:
     exit()
 
 print("This will not work unless ffmpeg is installed and in your path. Read the GitHub page if you do not know how to do that.")
-yn = input("Is ffmpeg installed and in your path? [Y/n]")
+yn = input("Is ffmpeg installed and in your path? [Y/n] ")
 if yn != "Y" and yn != "y":
     print("Please go do that and run me again.")
     exit()
