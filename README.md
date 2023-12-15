@@ -57,6 +57,10 @@ Replace the bits in the brackets with the paths. You can _probably_ drag-and-dro
 
 The reason I'm saying probably is because Linux comes in a variety of flavours, and yours might not support this. I assume if you're using Linux, you know what a path is and how to find one. Otherwise, google "find absolute path in (name of your Linux distro)".
 
+### 6. Temporary: Interact with the yes/no questions
+
+I'm fixing this tool while procrastinating studying for finals, but I do have to draw the line somewhere. It currently works, but requires you to answer two questions and be aware of something. Read the terminal output carefully, and answer the questions. Your input here is case-insensitive and anything other than a Y or an N will be assumed to be a "No"
+
 <!-- This is currently not needed but when I fix titles it will be needed again
 
 ### 6. Log in with your UTORid and password
