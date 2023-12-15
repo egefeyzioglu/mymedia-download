@@ -8,25 +8,22 @@ USE ONLY WHERE ALLOWED BY THE COPYRIGHT OWNER. NOT AFFILIATED WITH ANYTHING/ANYO
 ### 0. Prerequisites
 To use this tool, you will have to have all of the following installed.
 
-As long as they are installed correctly, you can put them wherever you want, I have not hardcoded any default locations.
+As long as they are installed correctly, you can put them wherever you want, I have not hard coded any default locations.
 
 #### a. Python 3
 This tool is written in Python and you need to have Python installed for it to work.
 
-You can get Python from [its official website](https://www.python.org/downloads/). Download the installer, then finish the install before continuing.
+You can get Python from [its official website](https://www.python.org/downloads/). Download the installer, then finish the installation before continuing.
 
-#### b. Various Python packages
-There are thee you neet to download:
+#### b. The ffmpeg-python package
 
-- Selenium: This is what I use to interact with Google Chrome. It comes with its own Chrome installation, so no need to install it seperately, and it shouldn't change anything on your regular Chrome.
-- webdriver-manager: Has some utility functions that make my life easier
-- ffmpeg-python: This is used for Python to talk to a tool we'll download in just a second
+To use tool, you need the `ffmpeg-python` package. This is used for Python to talk to a tool we'll download in just a second
 
 Open your favorite terminal emulator (see the FAQ for how to do this) and type the following commands
 
 ```py -m ensurepip --upgrade```
 
-```pip3 install selenium ffmpeg-python webdriver-manager ```
+```pip3 install ffmpeg-python ```
 
 #### c. ffmpeg
 MyMedia stores videos in a way that makes them difficult to download and use. ffmpeg is a tool that is used (among other things) to convert video formats. This tool uses it to convert that format to mp4 files.
@@ -58,10 +55,14 @@ You first need to allow your computer to run this file. To do that, type `chmod 
 
 Replace the bits in the brackets with the paths. You can _probably_ drag-and-drop the file and the folder to the terminal if you don't know how to find the path to a file.
 
-The reason I'm saying probably is because Linux comes in a variety of flavours, and yours might not support this. I assume if you're using Linux, you know what a path is and how to find one. Otherwise google "find absolute path in (name of your Linux distro)".
+The reason I'm saying probably is because Linux comes in a variety of flavours, and yours might not support this. I assume if you're using Linux, you know what a path is and how to find one. Otherwise, google "find absolute path in (name of your Linux distro)".
+
+<!-- This is currently not needed but when I fix titles it will be needed again
 
 ### 6. Log in with your UTORid and password
 Wait for the Chrome window to pop up, then click Log In and authenticate. I do not ever see your UTORid and password, all the communication happens directly between you and the university. Please see the source code if you don't believe me.
+
+-->
 
 ### 7. Wait until the screen says "Done."
 After that, you should see all the videos you wanted to download in the folder you provided.
@@ -69,10 +70,15 @@ After that, you should see all the videos you wanted to download in the folder y
 
 ## Frequently Asked Querstions
 
+<!-- This is currently not needed but when I fix titles it will be needed again
+
+
 ### Why should I trust you to enter my UTORid and password?
 Great question. In theory, you shouldn't. However, I have provided the source code and you can see if you speak Python that the login process is identical to what would happen if you used Google Chrome yourself. After you log in, I hide the Chrome window to make things more efficient and create less of an eye sore, and download all the videos. If you don't speak Python, please feel free to show this to a friend who does. (Hint: Anyone who studies anything adjacent to computer science, data science or engineering should know Python after their first semester.)
 
-### Are you affiliated with (inster organisation here)?
+-->
+
+### Are you affiliated with (insert organisation here)?
 No. I am not. I created this tool on my own, all errors are mine only and I do not claim to represent anyone. This tool is not "official" in any way, shape or form.
 
 ### I am affiliated with (insert organisation here) and want to yell at you for creating this.
